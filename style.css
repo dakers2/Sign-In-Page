@@ -1,0 +1,100 @@
+*{
+	font-family: sans-serif;
+}
+
+.container {
+	width:350px;
+	Margin: 0 auto;
+}
+
+img {
+	padding-left: 100px;
+}
+
+header {
+	margin:auto;
+}
+
+.sign-in {
+	border: 1px solid #e7e9ec;
+	border-radius: 2px;
+	padding-left: 25px;
+	padding-bottom: 20px;
+}
+
+.sign-in form {
+	font-size: 12px;
+}
+
+.sign-in a {
+	padding-left: 120px;
+}
+
+.center {
+	margin: 0 auto;
+}
+
+input[type=text], [type=password] {
+	margin-bottom: 20px;
+	border-radius: 2px;
+}
+
+input[type=text]:focus, [type=password]:focus {
+	border: 2px solid #F7DEA1;
+	outline: 0 none;
+}
+
+input[type=submit] {
+	width: 300px;
+	border-radius: 2px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#sign-in {
+	background-color: #F0C14D;
+}
+
+#sign-in:hover{
+	background-color: rgba(231,118,0,0.9);
+	transition: all 0.5s ease 0s;
+}
+
+#create {
+	background-color: #E7E9EC;
+}
+
+a {
+	text-decoration: none;
+}
+
+footer a, p {
+	font-size: 10px;
+}
+
+footer a {
+	padding: 10px;
+}
+
+footer {
+	Border-top: 1px solid #E7E9EC;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.sign-in p {
+	font-size: 10px;
+	color: gray;
+	font-weight: 100;
+	text-align: center;
+	Border-bottom: 1px solid #E7E9EC;
+	line-height: 0px;
+    margin-top: 20px;
+    width: 300px;
+}
+
+h1 {
+	font-weight: 100;
+	font-size: 26px;
+	
+}
